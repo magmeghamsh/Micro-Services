@@ -18,7 +18,7 @@ public class ExchangeService {
         return exchangeRepository.findAll();
     }
 
-    public Optional<ExchangeValue> findOne(int key) {
+    public Optional<ExchangeValue> findOne(long key) {
         return exchangeRepository.findById(key);
     }
 
