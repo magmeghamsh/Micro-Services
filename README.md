@@ -5,3 +5,7 @@ In the process of designing a currency converter application, I have created 3 m
 2. _Currency conversion service:_ The request call is initiated here, this in turn sends the request to currency exchange service
 3. _Configuration service:_ This service has all the configurations of the above 2 applications.
 
+# Tech Stack Used in Micro-Services:
+
+Spring Cloud
+Feign
